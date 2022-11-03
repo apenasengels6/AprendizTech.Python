@@ -1,0 +1,139 @@
+Lista de Exercí­cios - Programação I (Python)
+
+ENTRADA E SAÍDA
+1) Escreva um programa que imprima seu nome na tela.
+2) Escreva um programa que imprima o valor guardado em uma variável.
+3) Escreva um programa que receba dois valores inteiros, some-os e mostre o resultado.
+4) Escreva um programa que receba trás notas e imprima a média aritmética delas.
+5) Escreva um programa que receba uma temperatura em Fahrenheit e a converta paraCelsius.{Fórmula: C = (F - 32) / 1.8}
+6) Escreva um programa que receba dois valores para as variáveis x e y. 
+	Depois, troque os valoresdestas variáveis e exiba-os na tela.
+	{x = valor1; y = valor2 || x = valor2; y = valor1}
+7) Escreva um programa que calcule a área de um cí­rculo e exiba o resultado na tela. {Fórmula: A = pi * raio ^ 2} 
+8) Escreva um programa que receba um valor do tipo real para a variável e imprima o 
+	resultado do quadrado desse número em três formas: sem arredondamento, com arredondamento e truncado. 
+	{Dica: use funções da linguagem}
+	
+	
+CONDICIONAIS
+1) Escreva um programa que receba trás números inteiros e informe qual deles é o maior.
+2) Escreva um programa que receba trás notas, mostre a média aritmética delas e informe se o aluno foi aprovado ou reprovado.
+3) Escreva um programa que leia o código de origem de um produto e imprima na tela a região de sua procedência conforme os dados abaixo:
+código 1 : Sul
+código 2 : Norte
+código 3 : Leste
+código 4 : Oeste
+código 5 ou 6 : Nordeste
+código 7, 8 ou 9 : Sudeste
+código 10 : Centro-Oeste
+código 11 : Noroeste
+Observação: Caso o código não seja nenhum dos especificados acima, o produto deve ser encaradocomo Importado
+4) Escreva um programa que receba um número inteiro e mostre se ele é par ou ímpar.
+5) Escreva um programa que receba um valor inteiro e informe se ele é positivo ou negativo.
+6) Escreva um programa que receba o nome e o sexo do usuário e, de acordo com o sexo, imprima"Ilmo Sr. <Nome>" ou "Ilmo Sra. <Nome>".
+7) Escreva um programa que peça ao usuário para pressionar qualquer tecla. 
+	Depois, informe se a teclapressionada é uma letra maiúscula, minúscula ou número. 
+	Se não for nenhuma das opções, exiba amensagem "Caractere desconhecido!".
+8) Escreva um programa que receba os comprimentos dos lados de um triângulo e classifique se ele é equilátero, isósceles ou escaleno. 
+	{Equilátero: três lados iguais; Isósceles: pelo menos dois lados iguais;Escaleno: todos os lados diferentes}
+9)Escreva um programa que receba um número inteiro e verifique se ele é um quadrado perfeito, sefor, mostre sua raiz quadrada. 
+	{Quadrado perfeito é um número que possui raiz quadrada exata. Ex: 0,1, 4, ...}
+10) Escreva um programa que receba um número inteiro de 1 a 12 e imprima na tela seu mês correspondente. 
+	Se o número não estiver no intervalo [1, 12], informe que o mês solicitado é inválido.
+11) Escreva um programa que receba o dia, mês e ano do seu nascimento e exiba sua idade. Tome 2010 como ano atual. 
+	{Extra: melhore este programa fazendo com que ele receba a data do sistemaoperacional automaticamente. 
+	Dica: pesquise sobre a função getDate() da unit Dos}
+12) Aprimore o programa anterior, fazendo com que ele, além da idade, exiba seu signo.
+		Áries 		-> 21/3 a 20/4
+		Touro 		-> 21/4 a 20/5
+		Gêmeos 		-> 21/5 a 20/6
+		Câncer 		-> 21/6 a 21/7
+		Leão 		-> 22/7 a 22/8
+		Virgem 		-> 23/8 a 22/9
+		Libra 		-> 23/9 a 22/10
+		Escorpião 	-> 23/10 a 21/11
+		Sagitário 	-> 22/11 a 21/12
+		Capricórnio -> 22/12 a 20/1
+		Aquário 	-> 21/1 a 19/2
+		Peixes 		-> 20/2 a 20/3
+
+
+REPETIÇÕES E CONDICIONAIS
+1) Escreva um programa que receba um número inteiro e mostre seu fatorial.
+2) Escreva um programa que receba dois número e exiba o resultado da divisão do primeiro pelosegundo. 
+	O programa deve verificar se o denominador é igual a zero, se for, o programa terá que pediroutro número ao usuário até que ele seja diferente de zero.
+3) Escreva um programa que gere a tabuada das multiplicações de um número inteiron(1n10)recebido do teclado. 
+	A saí­da deverá ser semelhante ao exemplo abaixo:
+Tabuada de 7:
+1 x 7 =7
+2 x 7 = 14
+3 x 7 = 21...10 x 7 = 70
+4) Escreva um programa que receba um número e informe quantos divisores ele possui.
+5) Escreva um programa que exiba a soma dos número múltiplos de 7 no intervalo [100, 200].
+6) Escreva umprograma que exiba a soma dos número que NÃO são múltiplos de 13 no intervalo [100,200].
+7) Escreva um programa que receba um intervalo inteiro [x,y], com x < y e mostre quantos múltiplos de 7 têm neste intervalo.
+8) Escreva um programa que faça a conversão de Celsius para Farenheit e exiba os valores de 10 em 10graus até 100.
+9) Escreva um programa que faça o seguinte:
+	=> Receba um número indeterminado de idades;
+	=> Pare de receber as idades quando o usuário inserir uma idade igual a 0 (zero);
+	=> Calcule a média das idades recebidas e mostre ao usuário.
+10) Escreva um programa que receba 2 notas de um aluno, calcule e exiba a média final. 
+	Logo após,exiba a mensagem "Calcular a média de outro aluno [S]im [N]ão?" e solicite um resposta. 
+	Se a respostafor "S", oprograma deveserexecutadonovamente, caso contrário deve ser encerrado imprimindo aquantidade de alunos aprovados.
+11) Escreva um programa que receba um número indeterminado de idades. 
+	Ao final, o programadeverá informar quantas idades foram recebidas, calcular e exibir a média deste grupo de idades. 
+	Oprograma só para de receber médias quando a entrada for igual a zero.
+12) Escreva um programa que mostre o total da soma dos cem primeiros número inteiros ( 1 + 2 + 3 +... + 100). 
+	{Extra: Leia o post "A magia está nos algoritmos" (http://www.ola-mundo.com/2010/07/magia-esta-nos-algoritmos.html) do site Olá Mundo! 
+	para descobrir uma curiosidade sobre esta soma.}
+13) Escreva um programa que receba 50 número inteiros e informe qual é o maior deles.
+14) Escreva um programa que gere os 20 primeiros termos da série de Fibonacci.
+	Nesta série, os doisprimeiros termos são 1 e os próximos são a soma dos dois anteriores. 
+	Veja: 1, 1, 2, 3, 5, 8, 13, ...
+	{Extra: Saiba mais sobre a série de Fibonacci pelo link: http://www.ola-mundo.com/2010/07/sequencia-de-fibonacci.html}
+15) Escreva um programa que calcule a soma dos número pares, menores que 4 milhões, da série de Fibonacci.
+16) Escreva um programa que receba um número e informe se ele é primo.
+17) Escreva um programa que exiba os número primos no intervalo [100, 200], além da soma destes número.
+18) Escreva um programa que receba um número indeterminado de valores inteiros e depois informe aquantidade de valores positivos e negativos.
+	OBS.: O programa para quando receber o número 0 (zero) como entrada.
+19) Escreva um programa que liste todos os número perfeitos menores que um inteirondado. 
+	Um número inteiro é dito perfeitose o dobro dele é igual à soma de todos os seus divisores. 
+	Ex.: osdivisores de 6 são 1, 2, 3 e 6, além disso, 1 + 2 + 3 + 6 = 12, logo, 6 é perfeito.
+20) Escreva um programa que receba um número inteiro positivo e informe quantos algarismos elepossui.
+21) Escreva um programa que receba um número inteiro positivo e verifique se ele é o produto de dois número primos. 
+	Ex.: 15 é o produto de dois primos, pois 15 = 3 * 5, mas 20 não é,pois 20 = 2 * 10 e 10 não é primo
+
+
+ARRAYS /LISTAS OU TUPLAS (Python)
+1) Escreva um programa que guarde 10 valores do tipo real em um vetor e calcule a média destesvalores.
+2) Escreva um programa que guarde 10 elementos em um vetor. 
+	Os valores dos elementos serão 0, se o í­ndice do elemento for par e 1, se o Ãi­ndice do elemento for í­mpar. 
+	Feito isso, exiba todos os elementosdo vetor e seus respectivos í­ndices.
+3)Escreva um programa que corrija a prova dos alunos de uma classe. A prova consta de 30 questões,cada uma com cinco alternativas (a, b, c, d, e). 
+	O programa receberá os seguintes dados:
+	 > cartão gabarito;
+	 > número de alunos da turma;
+	 > cartão de respostas de cada aluno, contendo o seu número e suas respostas.
+	A partir daí­, o programa deverá comparar as respostas de cada aluno com a resposta do gabarito e, no final, exibir os pontos que cada aluno obteve.
+4) Escreva um programa que receba dois vetores (x e y), ambos com n elementos e determine o produto escalar desses vetores. 
+	Ex.: n = 3; x = (3, 2, 5); y = (7, 4, 1) -> produto = (3 * 7) + ( 2 * 4) + (5 *1) = 34.
+6) Escreva um programa que carregue um vetor de seis elementos numéricos inteiros, calcule e mostre:
+	> A quantidade de número pares;
+	> Quais os número pares;
+	> A quantidade de número Ã­mpares;
+	> Quais os número Ã­mpares.
+
+
+REGISTROS DICIONÁRIOS (Python)
+1) Escreva um programa que crie um record chamado FichaAluno, com as variáveis nome, idade, media e disciplina (array que guardara 5 notas). 
+	O programa deverá perguntar o nome, idade e 5 médias doaluno. Ao final, ele exibirá estes dados seguidos da média geral.
+2) Escreva um programa em pascal que tenha um registro que guarde dados cadastrais de um cliente deum banco, como: 
+	nome, num_conta, rua_cidade_num, telefone, RG, CPF, e renda_mensal. Em seguida,os dados deverão ser impressos na tela.
+3) Altere o programa anterior de modo que a variável rua_cidade_num se converta em um novo record,
+	dentro do dados_cliente, chamado endereco, com os campos rua, CEP, bairro e cidade.
+4) Escreva um programa que contenha um registro contendo dados das notas de duas Unidades Temáticas, de 6 disciplinas, e indique se você está aprovado,reprovado ou na final.
+5) Escreva um programa para cadastrar dois clientes de uma loja. 
+	As informações necessárias são:nome, endereço e telefone. 
+	Deve ser usada uma estrutura de registro para a construção destecadastro, usando Type para a declaração do registro.
+6) Altere o programa anterior de modo que ele suporte até 50 clientes. Ao final do cadastro de cadacliente deverá ser perguntado: â€œNovo Cliente (S/N)?â€.
+	Deve-se utilizar um vetor do tipo declaradocomo um registro para a solução deste programa.
